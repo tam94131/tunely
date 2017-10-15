@@ -64,7 +64,7 @@ function handleError(err){
 // this function takes a single album and renders it to the page
 function renderAlbum(album) {
 
-    console.log('rendering album:', album);
+    // console.log('rendering album:', album);
 
     var albumTemplate =       
           `<!-- one album -->
