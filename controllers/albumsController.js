@@ -26,10 +26,20 @@ var albums = [{
 }];
 
 
-// module.exports = {
-//   index: index,
+/*** For GET /api/albums route ***/
+function index(req, res) {
+  let newArray = [];
+  for (j=0; j<albums.length; j++) {
+    newArray.push(albums[j]);
+  }
+  // res.json({"data": newArray});
+  res.json(newArray);
+}
+
+module.exports = {
+  index: index,
 //   create: create,
 //   show: show,
 //   destroy: destroy,
 //   update: update
-// };
+};

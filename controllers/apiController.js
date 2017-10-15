@@ -3,7 +3,7 @@
 function index(req, res) {
   res.json({
     message: 'Welcome to tunely!',
-    documentation_url: 'https://github.com/sf-wdi-labs/tunely',
+    documentation_url: 'https://github.com/tam94131/tunely',
     base_url: 'localhost:3000',
     endpoints: [
       {
